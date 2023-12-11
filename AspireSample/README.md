@@ -14,3 +14,8 @@ To generate yaml deployment files, execute command `azd infra synth`, this creat
     - containerApp deployment files for each service in each projects directory under `/manifests/containerApp.tmpl.yaml`;
     - `main.bicep`, `main.parameters.json` and `resources.bicep` files for infrastructure code.
 
+By default, resource names will be a prefix of resource type followed by a random string of characters. To give meaningful names to resources, modify `infra/resources.bicep` file where resources are declared.
+
+To provision the infrastructure, run command `azd provision`
+
+To deploy your apps to the new infra, run command `azd deploy`
