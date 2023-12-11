@@ -13,6 +13,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3AC82AF3-25A6-4635-B58E-B8FA186F9F24}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		README.md = README.md
+		..\azure.yaml = ..\azure.yaml
+		..\next-steps.md = ..\next-steps.md
 	EndProjectSection
 EndProject
 Global
