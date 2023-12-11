@@ -8,5 +8,5 @@ To create `manifest.json` file, cd into *.AppHost folder and run command `dotnet
 
 ## Infrastructure
 
-To init `azd` environment, used command `azd init`, select `Use code in directory`, selected confirm and selected `webfrontend` as service that is exposed to internet. Name of environment set as `aspire-sandbox` as this name will be used for resource group name, so that it is not generic environment name, but includes app name as well.
+To init `azd` environment, used command `azd init`, select `Use code in directory`, selected confirm and selected `webfrontend` as service that is exposed to internet. Name of environment set as `aspire-sample-sandbox` as this name will be used for resource group name, so that it is not generic environment name, but includes app name as well.
 
