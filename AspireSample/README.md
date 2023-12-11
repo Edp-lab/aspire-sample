@@ -19,3 +19,5 @@ By default, resource names will be a prefix of resource type followed by a rando
 To provision the infrastructure, run command `azd provision`
 
 To deploy your apps to the new infra, run command `azd deploy`
+
+To deploy a single service from your stack, run command `azd deploy {{SERVICE_NAME}}`, replace `{{SERVICE_NAME}}` with your service name, e.g., `azd deploy webfrontend` 

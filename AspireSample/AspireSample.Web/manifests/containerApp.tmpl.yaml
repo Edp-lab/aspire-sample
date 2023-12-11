@@ -9,7 +9,7 @@ properties:
   configuration:
     activeRevisionsMode: single
     ingress:
-      external: false
+      external: true
       targetPort: 8080
       transport: http
       allowInsecure: false
